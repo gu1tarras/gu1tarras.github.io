@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+
+}
+input{
+   padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+background-color: orange;
+
+ 
+}
+
+.logi{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.git{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.joa{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.sant{
+    margin-top: 50px;
+}
+
+.is{
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.lin{
+
+    width: 50px;
+height: 50px;
+}
+nav{
+    flex-wrap: wrap;
+    background: saddlebrown;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+.enlace{
+    position: absolute;
+    padding: 20px 22px;
+}
+.logo{
+    margin: -23px;
+    height: 83px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black; /* COLOR DE LETRA */
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+   
+    text-transform: uppercase;
+}
+li a:hover{
+   color: white;
+}
+.checkbtn{
+    font-size: 30px;
+    color: grey;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: black;
+}
+
+
+.vertical li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+.banner-central{
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+    background: wheat;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+margin-top: -10px;
+
+                       
+}
+ 
+
+footer{
+background-color: saddlebrown;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+   
+bottom:0px;
+right:0px;
+    width: 100%;
+ }
+
+
+.banner{
+    width: 100%;
+    max-width: 2000px;
+    height: 200px;
+    background: red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+margin-top: -10px;
+top: 0px;
+
+
+                       
+}
+
+
+
+.container2{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxx{
+    width: 550px;
+    margin: 10px;
+    margin-left: 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+   
+
+
+}
+.container{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+
+
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.juli{
+    width: 125px;
+    height: 200px;
+}
+
+.alejo{
+    width: 125px;
+    height: 210px;
+}
+
+.bauti{
+    width: 125px;
+    height: 180px;
+}
+
+.caro{
+    width: 125px;
+    height: 200px;
+}
+/* ------------------- RESPONSIVE ------------------------ */
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    footer{
+
+         margin-bottom:0px
+    }
+
+    iframe{
+        margin-bottom:0px;
+        width: 500px;
+        height: 400px;
+
+    }
+}
+
+@media (max-width: 500px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    footer{
+
+         margin-bottom:0px
+    }
+
+    iframe{
+        margin-bottom:0px;
+        width: 400px;
+        height: 300px;
+
+    }
+
+
+.hijo{
+    margin-bottom: 10px;
+}
+    h2{
+font-size:13px;
+    }
+   
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: wheat; /* --COLOR DEL MENU-------- */
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    iframe{
+        margin-bottom:0px;
+        width: 300px;
+        height: 300px;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: saddlebrown;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+   
+    .logo{
+        margin: -23px;
+        height: 83px;
+        width: 500px;
+   
+    }
+
+   
+}
+
+
+/* ------------------- RESPONSIVE ------------------------ */
